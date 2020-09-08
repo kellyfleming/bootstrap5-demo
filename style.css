@@ -1,0 +1,32 @@
+.gradient {
+    background: #F0C27B;
+    background: -webkit-linear-gradient(to left, #F0C27B, #4B1248);
+    background: linear-gradient(to left, #F0C27B, #4B1248);
+}
+
+body {
+    background: gainsboro;
+}
+
+.header-image {
+    width: 100%;
+    height: 350px;
+}
+
+@media screen and (max-width: 575px) {
+    .header-image {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .header-image {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .header-image {
+        height: 175px;
+    }
+}
